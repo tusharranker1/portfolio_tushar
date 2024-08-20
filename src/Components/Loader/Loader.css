@@ -1,0 +1,48 @@
+.loader-wrapper {
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+}
+
+.box1 {
+    position: absolute;
+    width: 130px;
+    aspect-ratio: 1;
+    transform: scale(0.7);
+    background-color: #C7B7A3;
+    clip-path: polygon(93.04% 75.45%, 49.48% 100.00%, 6.44% 74.55%, 6.96% 24.55%, 50.52% 0.00%, 93.56% 25.45%, 93.04% 75.45%, calc(93.56% - 6.97px) calc(25.45% - -3.93px), calc(50.52% - 0.08px) calc(0.00% - -8.00px), calc(6.96% - -6.89px) calc(24.55% - -4.07px), calc(6.44% - -6.97px) calc(74.55% - 3.93px), calc(49.48% - -0.08px) calc(100.00% - 8.00px), calc(93.04% - 6.89px) calc(75.45% - 4.07px), calc(93.56% - 6.97px) calc(25.45% - -3.93px));
+}
+
+
+
+
+.label {
+    color: #C7B7A3;
+    font-size: 4em;
+    position: absolute;
+}
+
+.content {
+    position: relative;
+    transform: translateY(105px);
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    perspective: 100px;
+
+}
+
+.content .contentName {
+    color: #b24d46;
+    opacity: 0;
+    width: 300px;
+    text-align: center;
+    font-size: 1.5em;
+    position: absolute;
+}

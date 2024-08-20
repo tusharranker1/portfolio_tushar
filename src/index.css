@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Hind:wght@700&family=Kalnia:wght@300&family=Lobster&family=Mulish:wght@200&family=Oswald&family=Poiret+One&family=Protest+Riot&family=Roboto+Mono&family=Titillium+Web:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+#root {
+    height: 100vh;
+    width: 100vw;
+    background-color: #28090c;
+}
+
+/* geetanjali.singh@mobifly.in */
