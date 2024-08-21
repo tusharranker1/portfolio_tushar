@@ -296,48 +296,7 @@
 }
 
 /* =========== Work Page=============*/
-.card{
-    transform: scale(0.8);
-    
-}
 
-.card1:hover{
-    transform: scale(1.1);
-    margin: 0px 30px;
-}
-.card2:hover{
-    transform: scale(1.1);
-    margin: 0px 30px;
-}
-.card3:hover{
-    transform: scale(1.1);
-    margin: 0px 30px;
-}
-.card1{
-    height: 80%;
-    width: 27%;
-    background-color: #973731;
-    transition: 0.3s;
-}
-.card2{
-    height: 80%;
-    width: 27%;
-    background-color: #973731;
-    transition: 0.3s;
-}
-.card3{
-    height: 80%;
-    width: 27%;
-    background-color: #973731;
-    transition: 0.3s;
-}
-.cardLine{
-    position: absolute;
-    background-color: #72312cc5;
-    width: 80%;
-    height: 2px;
-    z-index: -1;
-}
 
 .works_wrapper{
     margin-top: 20px;
@@ -348,4 +307,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    overflow: scroll;
 }
+
+

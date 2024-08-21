@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import "../../Pages/HomePage.css";
-import KeyboardCapslockIcon from "@mui/icons-material/KeyboardCapslock";
+import lms from '../../assets/LMS_Image.png'
 
 
 export default function Experience() {
@@ -17,10 +17,9 @@ export default function Experience() {
         <div className="about_line "></div>
       </h1>
       <div className="works_wrapper">
-        <div className="card card1"></div>
-        <div className="card card2 active"></div>
-        <div className="card card3"></div>
-        <div className="cardLine"></div>
+        <div className="project1">
+            <h1>Learning Management System</h1>
+        </div>
       </div>
     </>
   );
