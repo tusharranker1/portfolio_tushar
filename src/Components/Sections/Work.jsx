@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import "../../Pages/HomePage.css";
-import lms from '../../assets/LMS_Image.png'
+import lms from '../../assets/HomePage.png'
 
 
 export default function Experience() {
@@ -17,8 +17,15 @@ export default function Experience() {
         <div className="about_line "></div>
       </h1>
       <div className="works_wrapper">
-        <div className="project1">
+        <div className="project project1">
+        <div className="coverImg"></div>
+        <img src={lms}/>
             <h1>Learning Management System</h1>
+        </div>
+        <div className="project project2">
+        <div className="coverImg"></div>
+        <img src={lms}/>
+            <h1>Box Office</h1>
         </div>
       </div>
     </>
