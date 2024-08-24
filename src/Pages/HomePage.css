@@ -327,8 +327,11 @@
 .works_wrapper::-webkit-scrollbar {
     width: 0;
 }
-
+.project2{
+    margin-top: 50px;
+}
 .project {
+    
     position: relative;
     flex: none;
     height: 100%;
@@ -353,6 +356,10 @@
     border-radius: 5px;
     transform: scale(1) translateX(0px);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.3s;
+}
+.coverImg:hover{
+    background-color: #782c2700;
 }
 
 .project-wrapper {
@@ -397,4 +404,26 @@
 .projectContent span{
     font-weight: bold;
     color: #d7c0a4;
+}
+.icons{
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icons img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    transform: scale(0.8);
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.icons img:hover{
+    
+    transform: scale(0.6);
 }
