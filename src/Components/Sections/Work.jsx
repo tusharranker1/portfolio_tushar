@@ -20,12 +20,14 @@ export default function Experience() {
         <div className="project project1">
         <div className="coverImg"></div>
         <img src={lms}/>
-            <h1>Learning Management System</h1>
+        <div className="project-wrapper">
+          <div className="projectHeading">Exam Preparation Website</div>
+        </div>
         </div>
         <div className="project project2">
-        <div className="coverImg"></div>
-        <img src={lms}/>
-            <h1>Box Office</h1>
+        
+        
+            
         </div>
       </div>
     </>
