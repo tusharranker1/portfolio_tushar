@@ -22,6 +22,7 @@ export default function Experience() {
         <img src={lms}/>
         <div className="project-wrapper">
           <div className="projectHeading">Exam Preparation Website</div>
+          <div className="projectContent">Welcome to <span>Exam Prep</span> —your ultimate study partner for exam success! Whether you're preparing for high school finals, college entrance tests, or professional certification exams, we’ve got you covered.</div>
         </div>
         </div>
         <div className="project project2">
