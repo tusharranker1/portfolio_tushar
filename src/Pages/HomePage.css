@@ -351,7 +351,7 @@
     height: 100%;
     width: 60%;
     position: absolute;
-    background-color: #d7c0a49c;
+    background-color: #bd2c2139;
     z-index: 2;
     border-radius: 5px;
     transform: scale(1) translateX(0px);
@@ -448,7 +448,7 @@
   .cContent{
     text-align: center;
     width: 50%;
-    margin-top: -5%;
+    margin-top: -2%;
     font-size: 1.3em;
     color:#d85e55cd ;
     font-family: "Dosis", sans-serif;
@@ -474,4 +474,13 @@
   transform: translate(-3px, -6px) scale(1);
   box-shadow: 5px 5px 0px 1px #C7B7A3;
   }
-  
+  .copyright{
+    
+    transform: translateY(50px);
+    bottom: 10px;
+    color: #d85e557d;
+    transition: 0.3s;
+  }
+  .copyright:hover{
+    color: #d7c0a4;
+  }
