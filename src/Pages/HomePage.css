@@ -427,3 +427,51 @@
     
     transform: scale(0.6);
 }
+
+/* ========contact page================ */
+.contact_wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: #C7B7A3; */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  .getInTouch{
+    
+    font-size: 2em;
+    font-family: "Dosis", sans-serif;
+    color: #f6d7b1;
+  }
+  .cContent{
+    text-align: center;
+    width: 50%;
+    margin-top: -5%;
+    font-size: 1.3em;
+    color:#d85e55cd ;
+    font-family: "Dosis", sans-serif;
+  }
+  .cContent span{
+    color: #f6d7b1;
+  }
+  .btn{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid #d7c0a4;
+    color: #d7c0a4;
+    font-family: "Dosis", sans-serif;
+    transition: 0.3s;
+  }
+  .btn:hover{
+    cursor: pointer;
+    border: 2px solid #C7B7A3;
+  transform: translate(-3px, -6px) scale(1);
+  box-shadow: 5px 5px 0px 1px #C7B7A3;
+  }
+  

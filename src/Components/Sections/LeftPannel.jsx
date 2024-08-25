@@ -49,7 +49,7 @@ export default function LeftPannel() {
   });
   return (
     <>
-      <Link>
+      <Link to="mailto:tusharkumar2002working@gmail.com" target="__blank">
         <div
           onMouseOver={handleMouseOver}
           onMouseOut={handleMouseOut}
@@ -69,7 +69,7 @@ export default function LeftPannel() {
           />
         </div>
       </Link>
-      <Link>
+      <Link to="https://www.instagram.com/tusharrr__4/" target="__blank">
         <div
         
           className="socialBox sb2"
@@ -91,7 +91,7 @@ export default function LeftPannel() {
           />
         </div>
       </Link>
-      <Link>
+      <Link to="https://github.com/tusharranker1" target="__blank">
         <div
           className="socialBox sb3"
           onMouseOver={handleMouseOver2}
@@ -111,7 +111,7 @@ export default function LeftPannel() {
           />
         </div>
       </Link>
-      <Link>
+      <Link to="https://www.linkedin.com/in/tushar2024kumar/" target="__blank">
         <div
           className="socialBox sb4"
           onMouseOver={handleMouseOver3}

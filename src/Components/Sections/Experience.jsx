@@ -83,7 +83,7 @@ export default function Experience() {
   return (
     <>
       <h1 className="about_heading expVersionHeading">
-        <span>01.</span>&nbsp;Where I've worked{" "}
+        <span>02.</span>&nbsp;Where I've worked{" "}
         <div className="about_line "></div>
       </h1>
       <div className="exp_content_wrapper">

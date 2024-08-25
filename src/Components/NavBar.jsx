@@ -76,7 +76,7 @@ export const NavBar = (obj) => {
               });
             }}
           >
-            <span>03.</span> Work
+            <span>03.</span> Projects
           </button>
         </div>
         <div className="item item4">

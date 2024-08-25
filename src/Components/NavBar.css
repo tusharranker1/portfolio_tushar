@@ -85,12 +85,12 @@
 }
 
 .item1 {
-  right: 30vw;
+  right: 31vw;
   
 }
 
 .item2 {
-  right: 20.5vw;
+  right: 22vw;
   
 }
 
@@ -100,7 +100,7 @@
 }
 
 .item4 {
-  right: 8vw;
+  right: 8.5vw;
   
 }
 
@@ -115,8 +115,9 @@
 
 .resume:hover {
   border: 2px solid #C7B7A3;
-  transform: translate(-3px, -6px) scale(0.83);
+  transform: translate(-3px, -6px) scale(1);
   box-shadow: 5px 5px 0px 1px #C7B7A3;
 
 
 }
+

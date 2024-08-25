@@ -11,6 +11,7 @@ import About from "../Components/Sections/About";
 import Experience from "../Components/Sections/Experience";
 import Work from "../Components/Sections/Work";
 import LeftPannel from "../Components/Sections/LeftPannel";
+import Contact from "../Components/Sections/Contact";
 
 export const HomePage = () => {
   const [loading, setLoading] = useState(false);
@@ -93,9 +94,8 @@ export const HomePage = () => {
                 id="contact_section"
                 ref={contactRef}
               >
-                <h1 className="about_heading">
-                  <span>01.</span> Contact Me
-                </h1>
+               
+                <Contact/>
               </div>
             </div>
             <div className="right_pannel"></div>
