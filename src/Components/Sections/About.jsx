@@ -1,14 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import KeyboardCapslockIcon from "@mui/icons-material/KeyboardCapslock";
 import myself from "../../assets/myself2.png";
-
+import AOS from 'aos'
 
 
 export default function About() {
     const [imageHover, setImageHover] = useState(false);
-    
+    useEffect(()=>{
+      AOS.init();
+    })
     
   return (
     <>
@@ -38,12 +40,12 @@ export default function About() {
                     <div>My Tech Stack :</div>
                     <div className="about_tech_stack_content">
                       <ul className="ats_ul1">
-                        <li>
+                        <li >
                           <KeyboardCapslockIcon
                             style={{
                               color: "#C7B7A3",
                               transform: "scale(0.8)",
-                            }}
+                            }} 
                           />{" "}
                           Html
                         </li>
