@@ -4,6 +4,7 @@ import "./NavBar.css";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import PDF from '../assets/TusharKumarResume1Mtech.pdf'
 
 export const NavBar = (obj) => {
   const navWrapRef = useRef(null);
@@ -92,7 +93,7 @@ export const NavBar = (obj) => {
           </button>
         </div>
         <div className="item resume">
-          <a>Resume</a>
+          <Link to={PDF} target="__blank">Resume</Link>
         </div>
       </div>
     </div>
