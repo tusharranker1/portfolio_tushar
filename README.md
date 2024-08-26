@@ -23,3 +23,5 @@ https://portfolio-tushar-ek7aa7t0y-tusharranker1s-projects.vercel.app/
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+
+<!-- -------- Open to contribute ------------- -->
