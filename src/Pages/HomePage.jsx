@@ -13,6 +13,7 @@ import Work from "../Components/Sections/Work";
 import LeftPannel from "../Components/Sections/LeftPannel";
 import Contact from "../Components/Sections/Contact";
 
+
 export const HomePage = () => {
   const [loading, setLoading] = useState(false);
   const mainWrapper = useRef(null);
