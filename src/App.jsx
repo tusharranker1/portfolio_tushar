@@ -4,6 +4,7 @@ import "./App.css";
 import { HomePage } from "./Pages/HomePage";
 import { useEffect, useState } from "react";
 import NotWorking from "./Pages/NotWorking";
+import PageNotFound from "./Pages/PageNotFound";
 
 function App() {
   const [windowSize, setWindowSize] = useState([
@@ -36,6 +37,7 @@ function App() {
       </div> */}
       <Routes>
         <Route path="/" Component={setComponent} />
+        <Route path="*" Component={PageNotFound} />
       </Routes>
     </>
   );
