@@ -1,45 +1,31 @@
 /* eslint-disable no-unused-vars */
-import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import { HomePage } from "./Pages/HomePage";
-import { Remove } from "@mui/icons-material";
+import { useEffect, useState } from "react";
 import NotWorking from "./Pages/NotWorking";
-import PageNotFound from "./Pages/PageNotFound";
 
 function App() {
-  const [cursor, setCursor] = useState({ x: "0px", y: "0px" });
   const [windowSize, setWindowSize] = useState([
-    window.innerWidth,
     window.innerHeight,
+    window.innerWidth,
   ]);
-  useEffect(() => {
-    const windowSizeHandler = () => {
-      setWindowSize([window.innerWidth, window.innerHeight]);
-    };
-    const mousemoveHandler = (e) => {
-      const posX = e.clientX;
-      const posY = e.clientY;
-      setCursor({
-        x: posX,
-        y: posY,
-      });
-    };
-    window.addEventListener("resize", windowSizeHandler);
-    window.addEventListener("mousemove", mousemoveHandler);
-    return () => {
-      window.removeEventListener("resize", windowSizeHandler);
-      window.removeEventListener("mousemove", mousemoveHandler);
-    };
-  }, []);
-  const getComponent = () => {
-    console.log(windowSize[0], windowSize[1]);
-    if (windowSize[0] >= 1400 && windowSize[1] >= 600) {
-      console.log("YES");
+  const setComponent = () => {
+    if (windowSize[0] >= 600 && windowSize[1] >= 1400) {
       return <HomePage />;
     }
     return <NotWorking />;
   };
+  useEffect(() => {
+    const resizeHandler = () => {
+      setWindowSize([window.innerHeight, window.innerWidth]);
+    };
+    window.addEventListener("resize", resizeHandler);
+    return ()=>{
+      window.removeEventListener("resize",resizeHandler)
+    }
+  },[]);
+
   return (
     <>
       {/* <div
@@ -49,8 +35,7 @@ function App() {
         <div className="dot" style={{ left: cursor.x, top: cursor.y }}></div>
       </div> */}
       <Routes>
-        <Route path="/" Component={getComponent} />
-        <Route path="*" Component={PageNotFound} />
+        <Route path="/" Component={setComponent} />
       </Routes>
     </>
   );
